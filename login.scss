@@ -1,0 +1,64 @@
+body {
+  
+  font-family: Arial, Helvetica, sans-serif
+}
+a {
+  color: rgb(14, 180, 14);
+}
+button {
+  background: none;
+  outline: none;
+  border: none;
+}
+.login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #ffff;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 8px rgb(197, 195, 195);
+  border-radius: 20px;
+  .top-bg {
+    background: url('https://static.vecteezy.com/system/resources/previews/000/173/615/non_2x/natural-resource-background-vector-illustration.jpg');
+  background-size: 100% 100%;
+    // width: 100%;
+    height: 200px;
+    border-radius: 20px;
+  }
+  form {
+    position: relative;
+    top: -50px;
+    background: #fff;
+    border-radius: 20px 20px 0 0;
+    padding: 2rem 2rem 1rem 2rem;
+    input {
+      background: rgb(233, 232, 232);
+      outline: none;
+      border: none;
+      border-radius: 10px;
+      padding: .5rem 1rem;
+      margin: 1rem 0;
+      width: 100%;
+      transition: .5s;
+      &:focus {
+        box-shadow: 0 0 8px rgb(14, 180, 14);
+      }
+    }
+
+    .btn {
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      margin-top: 1rem;
+      span {
+        margin: auto 0;
+        font-size: 2rem;
+        cursor: pointer;
+        color: rgb(14, 180, 14);
+      }
+    }
+  }
+  .sign-up {
+    text-align: center;
+  }
+}
