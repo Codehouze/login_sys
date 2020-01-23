@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: #0eb40e;
+}
+
+button {
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #ffff;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-shadow: 0 0 8px #c5c3c3;
+          box-shadow: 0 0 8px #c5c3c3;
+  border-radius: 20px;
+}
+
+.login .top-bg {
+  background: url("https://static.vecteezy.com/system/resources/previews/000/173/615/non_2x/natural-resource-background-vector-illustration.jpg");
+  background-size: 100% 100%;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.login form {
+  position: relative;
+  top: -50px;
+  background: #fff;
+  border-radius: 20px 20px 0 0;
+  padding: 2rem 2rem 1rem 2rem;
+}
+
+.login form input {
+  background: #e9e8e8;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: .5rem 1rem;
+  margin: 1rem 0;
+  width: 100%;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.login form input:focus {
+  -webkit-box-shadow: 0 0 8px #0eb40e;
+          box-shadow: 0 0 8px #0eb40e;
+}
+
+.login form .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.login form .btn span {
+  margin: auto 0;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #0eb40e;
+}
+
+.login .sign-up {
+  text-align: center;
+}
+/*# sourceMappingURL=login.css.map */
